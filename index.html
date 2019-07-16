@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
+
     <meta charset="utf-8">
 <!--Title-->
     <title>Ivan's Personal Page</title>
-<!--wow.js-->
-    <link rel="stylesheet" href="css/animate.css">
-<!--animate.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <!--bootstrap 4-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<!--custom fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Domine|Roboto:100,300&display=swap">
+
+<!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
 <!--custom css-->
     <link rel="stylesheet" href="stylesheet.css">
-<!--custom fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Domine|Roboto:100,300&display=swap" rel="stylesheet">
-  </head>
-  <body>
 
-<!--Background-->
+  </head>
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!--Track scrolling behaviour to change navbar styling-->
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--Background Photo for Jumbotron container-->
 
     <div class="background">
 
@@ -33,10 +40,10 @@
 
         <div class="collapse navbar-collapse justify-content-end">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#jtn">Home</a>
-            <a class="nav-item nav-link" href="#about">Features</a>
-            <a class="nav-item nav-link" href="#pricing">Pricing</a>
-            <a class="nav-item nav-link" href="#disabled">Disabled</a>
+            <a class="nav-item nav-link" href="#first">First</a>
+            <a class="nav-item nav-link" href="#second">Second</a>
+            <a class="nav-item nav-link" href="#third">Third</a>
+            <a class="nav-item nav-link" href="#fourth">Fourth</a>
           </div>
         </div>
 
@@ -44,7 +51,7 @@
 
 <!--Jumbotron-->
 
-      <div class="jumbotron col-12 col-lg-5 d-flex flex-column align-items-left justify-content-end" id="jtn">
+      <div class="jumbotron col-12 col-lg-6 d-flex flex-column align-items-left justify-content-end padded" id="1">
         <!-- <img src="assets/crystal.png" alt="crystal"> -->
         <h1>“Where words fail, music speaks.”</h1>
         <hr class="my-5 white">
@@ -53,162 +60,38 @@
 
     </div>
 
-    <!--Title-->
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
+<!--Music Sine Wave Animation Container-->
 
+    <div class="d-flex flex-column align-items-center justify-content-center container-fluid padded">
+      <div id="pt"></div>
 
-    <div class="container-fluid padded" id="about">
-      <h3 class="my-5:">Title</h3>
-      <p>Forget that! Who would ever want to put in all of that effort for a website? Just open up your web browser and type "bootstrap template" into your favorite search engine, like Yahoo! or Bing, and you're on your way! There are hundreds of templates to choose from, but go ahead and pick this same exact template from the first result on google, edit a few lines, and you're on your way! No one will notice!</p>
+      <div class="" id="first">
+        <h3 class="my-5:">Title</h3>
+        <p>Forget that! Who would ever want to put in all of that effort for a website? Just open up your web browser and type "bootstrap template" into your favorite search engine, like Yahoo! or Bing, and you're on your way! There are hundreds of templates to choose from, but go ahead and pick this same exact template from the first result on google, edit a few lines, and you're on your way! No one will notice!</p>
+      </div>
     </div>
 
+<!-------------------------------------------------------------->
+<!-------------------------------------------------------------->
 
-
-    <div class="col-md-3 mb-4">
-       <div class="blue-gradient color-block mb-3 mx-auto rounded-circle z-depth-1"></div>
-       <h5 class="mb-0">blue-gradient</h5>
-     </div>
-
-     
-        <!--4 icons-->
-
-        <div class="container-fluid padded" id="pricing">
-          <h2 class="text-muted">Title</h2>
-          <hr class="my-4" size="30">
-
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-3 card" style="width: 18rem;">
-              <img src="https://png.pngtree.com/element_our/sm/20180626/sm_5b321ca7a1ca4.png" class="card-img-top animated  bounce delay-2s wow" alt="...">
-              <div class="card-body">
-                <h3 class="card-text">Amazing</h3>
-                <h4 class="text-muted">Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</h4>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3 card" style="width: 18rem;">
-              <img src="https://png.pngtree.com/element_our/sm/20180626/sm_5b321ca7a1ca4.png" class="card-img-top animated  rotateIut delay-2s wow" alt="...">
-              <div class="card-body">
-                <h3 class="card-text">Text</h3>
-                <h4 class="text-muted">Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</h4>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3 card" style="width: 18rem;">
-              <img src="https://png.pngtree.com/element_our/sm/20180626/sm_5b321ca7a1ca4.png" class="card-img-top animated  heartbeat delay-2s wow" alt="...">
-              <div class="card-body">
-                <h3 class="card-text">Text</h3>
-                <h4 class="text-muted">Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</h4>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3 card" style="width: 18rem;">
-              <img src="https://png.pngtree.com/element_our/sm/20180626/sm_5b321ca7a1ca4.png" class="card-img-top animated  flipInX delay-2s wow" alt="...">
-              <div class="card-body">
-                <h3 class="card-text">Text</h3>
-                <h4 class="text-muted">Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</h4>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-
-        <!--4 pictures-->
-
-        <div class="container-fluid bg-dark" id="disabled">
-
-          <div class="row">
-
-            <div class="col-12 col-md-6 col-lg-3 p-0 d-flex justify-content-center align-items-center">
-              <img src="https://cdn.pixabay.com/photo/2014/10/09/14/58/tit-481988_960_720.jpg" class="img-fluid" alt="...">
-              <div class="overlay d-flex justify-content-center align-items-center">
-                <div class="hoverText">hello!</div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3 p-0 d-flex justify-content-center align-items-center">
-              <img src="https://cdn.pixabay.com/photo/2014/10/09/14/58/tit-481988_960_720.jpg" class="img-fluid" alt="...">
-              <div class="overlay d-flex justify-content-center align-items-center">
-                <div class="hoverText">hello!</div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3 p-0 d-flex justify-content-center align-items-center">
-              <img src="https://cdn.pixabay.com/photo/2014/10/09/14/58/tit-481988_960_720.jpg" class="img-fluid" alt="...">
-              <div class="overlay d-flex justify-content-center align-items-center">
-                <div class="hoverText">hello!</div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3 p-0 d-flex justify-content-center align-items-center">
-              <img src="https://cdn.pixabay.com/photo/2014/10/09/14/58/tit-481988_960_720.jpg" class="img-fluid" alt="...">
-              <div class="overlay d-flex justify-content-center align-items-center">
-                <div class="hoverText">hello!</div>
-              </div>
-            </div>
-
-          </div>
-
-
-
-          <h2 class="text-white">So amazing!</h4>
-            <h5><a class="btn btn-light btn-lg" href="#" role="button">Button</a></h5>
-
-          </div>
-
-
-
-          <!--Contact-->
-
-          <div class="container-fluid padded" id="">
-            <h2 class="text-dark">My Contact Information</h2>
-            <hr class="my-4 orange d">
-            <h4 class="text-muted">Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</h4>
-
-            <div class = "row">
-              <div class="col-12 col-md-6">
-                <i class="fas fa-phone d-flex justify-content-center my-4"></i>
-                <h5 class="text-muted">12345678</h5>
-
-              </div>
-
-              <div class="col-12 col-md-6">
-                <i class="fas fa-envelope-square d-flex justify-content-center my-4" c></i>
-                <a href="mailto:hello@gmail.com"><h5 class="text-muted">hello@gmail.com</h5></a>
-
-
-              </div>
-
-            </div>
-          </div>
-
-
-
-
-
-
-<!--activating animate.css-->
-    <h1 class="animated infinite bounce delay-2s">
-<!--activating wow.js-->
-    <div class="wow bounceInUp">
 <!--smooth scroll-->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<!--wow.js-->
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
 <!--bootstrap 4-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<!--Pts-->
+    <script src="https://unpkg.com/pts@0.8.6/dist/pts.js"></script>
+<!--font awesome-->
+    <script src="https://kit.fontawesome.com/4e127530a8.js"></script>
+<!--custom cursor-->
+    <script src="https://cdn.rawgit.com/jwarby/jquery-awesome-cursor/master/dist/jquery.awesome-cursor.min.js"></script></pre>
+<!--anime.js-->
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
 <!--Custom JS-->
     <script src="script.js"></script>
-<!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/4e127530a8.js"></script>
-
-
-
 
   </body>
-
 </html>
