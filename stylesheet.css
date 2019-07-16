@@ -1,0 +1,134 @@
+.background {
+  width: 100%;
+  background-image: url("assets/IMG_0888.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.jumbotron {
+  background: none;
+  height: 100vh;
+}
+
+.padded {
+  padding: 0 50px 50px 50px;
+}
+
+.navbar-brand {
+  transition: .5s ease;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 15px;
+  font-size: 20px;
+}
+
+.navbar {
+  transition: .5s ease;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+/* Horizontal Line */
+
+hr {
+  height: 0.2px;
+  width: 200px;
+  background: white;
+  margin-left: 0;
+}
+
+h1 {
+  text-align: left;
+  color: white;
+  font-family: 'Domine', serif;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: left;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+h3 {
+  color: dimgrey;
+  text-align: left;
+  font-family: 'Domine', serif;
+  font-size: 30px;
+}
+
+p {
+  color: dimgrey;
+}
+
+
+/*
+#about {
+  background-color: aqua.gradient;
+  height: auto;
+  border-radius: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.bg-dark h2 {
+  padding-top: 50px;
+}
+
+.bg-dark h5 {
+  padding-bottom: 50px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+
+
+
+.orange {
+  background: #DF694B;
+}
+
+.btn-primary {
+  background-color: #DF694B;
+}
+
+.btn {
+  border-radius: 50px;
+  border: 0;
+  margin-top: 20px;
+}
+
+.card {
+  border: 0;
+}
+
+.overlay:hover {
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+.overlay {
+  background-color: #DF694B;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.hoverText {
+  color: white;
+}
+
+.contact {
+  width: 40px;
+} */
