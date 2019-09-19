@@ -1,6 +1,6 @@
 # About Ivan's Personal Website
 
-Hi! Welcome to my new personal website, after 12 days of coding bootcamp! Here I'm applying my newly learnt skills in HTML, CSS, JS and Bootstrap/jQuery, to draw an analogy between music and coding.
+Hi! Welcome to my experiment using Pts.js to draw an analogy between music and coding.
 
 I connected my custom domain name http://ivanconcept.com to this page hosted on the Github.
 
