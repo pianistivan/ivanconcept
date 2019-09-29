@@ -2,8 +2,6 @@
 
 Hi! Welcome to my experiment using Pts.js to draw an analogy between music and coding.
 
-I connected my custom domain name http://ivanconcept.com to this page hosted on the Github.
-
 # Design and Styling
 
 To give a more sophisticated and modern feel to the website, the following styling decisions were made:
