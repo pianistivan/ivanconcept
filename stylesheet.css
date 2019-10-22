@@ -80,9 +80,6 @@ body {
 }
 
 #floatTextBlack {
-  position: absolute;
-  left: 180px;
-  top: 200px;
   background-color: black;
   padding: 20px 20px 30px 30px;
 }
