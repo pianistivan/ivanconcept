@@ -10,7 +10,7 @@
 
 # production
 /build
-/.circleci
+# /.circleci
 
 # misc
 .DS_Store
