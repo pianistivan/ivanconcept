@@ -70,6 +70,7 @@
         >
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="#home">Home</a>
+            <a class="nav-item nav-link" href="#profile">Profile</a>
             <a class="nav-item nav-link" href="#experience">Experience</a>
             <a class="nav-item nav-link" href="#skills">Skills</a>
             <a class="nav-item nav-link" href="#sectionContact">Contact</a>
@@ -80,39 +81,48 @@
       <!--Jumbotron-->
 
       <section
-        class="jumbotron col-8 p-5 d-flex flex-column justify-content-center"
+        class="jumbotron p-5 d-flex flex-column justify-content-center"
         id="home"
       >
-        <h1 class="lax" data-lax-preset="fadeInOut">Ivan Wong</h1>
-        <hr class="my-5 d4 white lax" data-lax-preset="fadeInOut" />
-        <h2 class="lax" data-lax-preset="fadeInOut">
-          Designer. Entrepreneur. <br />Full-Stack Web Developer.
-        </h2>
-        <br />
-        <br />
-        <br />
-        <div class="social-icons">
-          <a
-            href="https://www.linkedin.com/in/wchivan"
-            class="lax"
-            data-lax-preset="fadeInOut"
-          >
-            <i class="fab fa-linkedin-in lax"></i>
-          </a>
-          <a
-            href="https://github.com/pianistivan"
-            class="lax"
-            data-lax-preset="fadeInOut"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-          <a
-            href="mailto:wonderboomhk@gmail.com"
-            class="lax"
-            data-lax-preset="fadeInOut"
-          >
-            <i class="far fa-envelope-open"></i>
-          </a>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-sm-7">
+              <h1 class="lax" data-lax-preset="fadeInOut">Ivan Wong</h1>
+              <hr class="my-5 d4 white lax" data-lax-preset="fadeInOut" />
+              <h2 class="lax" data-lax-preset="fadeInOut">
+                Designer. Entrepreneur.
+              </h2>
+              <h2 class="lax" data-lax-preset="fadeInOut">
+                Full-Stack Developer.
+              </h2>
+              <br />
+              <br />
+              <br />
+              <div class="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/wchivan"
+                  class="lax"
+                  data-lax-preset="fadeInOut"
+                >
+                  <i class="fab fa-linkedin-in lax"></i>
+                </a>
+                <a
+                  href="https://github.com/pianistivan"
+                  class="lax"
+                  data-lax-preset="fadeInOut"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="mailto:wonderboomhk@gmail.com"
+                  class="lax"
+                  data-lax-preset="fadeInOut"
+                >
+                  <i class="far fa-envelope-open"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -120,10 +130,10 @@
     <!--Projects-->
 
     <section class="p-5 d-flex align-items-center" id="profile">
-      <div class="lax" data-lax-preset="fadeIn">
+      <div class="lax container-fluid" data-lax-preset="fadeIn">
         <h3 class="mb-5">Profile</h3>
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-5">
             <svg
               id="my-svg"
               data-name="Layer 1"
@@ -134,7 +144,7 @@
                 <style>
                   .cls-1 {
                     fill: none;
-                    stroke: #000;
+                    stroke: dimgrey;
                     stroke-miterlimit: 10;
                   }
                 </style>
@@ -289,7 +299,7 @@
               />
             </svg>
           </div>
-          <div class="col-8">
+          <div class="col-12 col-md-8">
             <p>
               Passionate Full-Stack Web Developer with solid knowledge in HTML,
               CSS, JS, jQuery, Git, AJAX, Node, MYSQL, React.
@@ -302,7 +312,7 @@
               <br />
               Eager to absorb and share tech knowledge and insights. Helpful and
               positive in multinational startup with teamwork and motivation.
-              Willing to develop my career in Full-Stack web development.
+              Willing to develop my career in Full-Stack web development.
             </p>
           </div>
         </div>
@@ -311,11 +321,134 @@
 
     <!--Experience-->
 
-    <!-- <section class="p-5 d-flex align-items-center lax" id="experience">
-      <div class="w-100">
-        <h3 class="mb-5">I enjoy solving problems.</h3>
+    <section class="p-5 d-flex align-items-center" id="experience">
+      <div class="w-100 container-fluid">
+        <h3 class="mb-5 lax" data-lax-preset="fadeIn">
+          I enjoy solving problems.
+        </h3>
+       
+        <div class="row">
+
+          <!-- Start of Card -->
+          <div class="card-columns">
+
+            <div
+              class="card border-light text-center lax"
+              data-lax-preset="fadeIn"
+            >
+              <h4 class="card-header">
+                Wonderboom 本 · 教室
+              </h4>
+              
+              <img
+                class="card-img-top mt-5 w-50 mx-auto"
+                src="./img/wonderboom.png"
+                alt="Card image cap"
+              />
+              <div class="card-body mb-5">
+                <p class="card-text">
+                  Founded with the mission of igniting passionate talent
+                </p>
+                <br>
+                <br>
+                <p class="badge badge-pill badge-secondary">Art</p>
+                <p class="badge badge-pill badge-secondary">Music</p>
+                <p class="badge badge-pill badge-secondary">Education</p>
+              </div>
+              <div class="card-footer text-muted">
+                <a href="http://wonderboom.com.hk" class="btn"><i class="fas fa-link"></i></a>
+              </div>
+            </div>
+          <!-- End of Card -->
+
+          <!-- Start of Card -->
+          
+          <div class="card border-light text-center lax" data-lax-preset="fadeIn">
+            <h4 class="card-header">
+              Commentfly
+            </h4>
+            <img class="card-img-top mt-5 w-50 mx-auto" src="./img/commentfly.png" alt="Card image cap" />
+            <div class="card-body mb-5">
+              <p class="card-text">
+                An end-to-end React video commenting platform that empowers
+                qualified experts to effectively review student practice
+                videos by giving specific, actionable comments that
+                facilitates students’ skill learning and improvement while
+                monetizing their expertise.
+              </p>
+              <br>
+              <br>
+              <p class="badge badge-pill badge-secondary">Media</p>
+              <p class="badge badge-pill badge-secondary">Platform</p>
+              <p class="badge badge-pill badge-secondary">Subscription</p>
+            </div>
+          
+          
+            <div class="card-footer text-muted">
+              <a href="http://commentfly.com" class="btn"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <!-- End of Card -->
+
+
+
+          
+          <!-- Start of Card -->
+          
+          <div class="card border-light text-center lax" data-lax-preset="fadeIn">
+            <h4 class="card-header">
+              Zora
+            </h4>
+            <img class="card-img-top mt-5 w-50 mx-auto" src="./img/zora.png" alt="Card image cap" />
+            <div class="card-body mb-5">
+              <p class="card-text">
+                A fashion e-commerce platform with full user-authentication, intelligent suggestions and purchasing
+                functionality with Node, Express, Restful APIs, Passport.js, Knex and SQL
+              </p>
+              <br>
+              <br>
+              <p class="badge badge-pill badge-secondary">e-Commerce</p>
+              <p class="badge badge-pill badge-secondary">Platform</p>
+              <p class="badge badge-pill badge-secondary">Fashion</p>
+            </div>
+          
+          
+            <div class="card-footer text-muted">
+              <a href="https://dragon-midas.xyz" class="btn"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <!-- End of Card -->
+
+          <!-- Start of Card -->
+          
+          <div class="card border-light text-center lax" data-lax-preset="fadeIn">
+            <h4 class="card-header">
+              Canvas Bears
+            </h4>
+            <img class="card-img-top mt-5 w-50 mx-auto" src="./img/canvas.png" alt="Card image cap" />
+            <div class="card-body mb-5">
+              <p class="card-text">
+                A fully interactive drawing web application with HTML5 Canvas API
+              </p>
+              <br>
+              <br>
+              <p class="badge badge-pill badge-secondary">Art</p>
+              <p class="badge badge-pill badge-secondary">Drawing</p>
+              <p class="badge badge-pill badge-secondary">Graphics and Design</p>
+            </div>
+          
+          
+            <div class="card-footer text-muted">
+              <a href="http://second-hand-pizzas.surge.sh" class="btn"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <!-- End of Card -->
+
+          </div>
+          
+        </div>
       </div>
-    </section> -->
+    </section>
 
     <!--Skills-->
 
@@ -370,7 +503,7 @@
             <i class="fab fa-adobe"></i>
           </li>
         </ul>
-        
+
         <h4 class="mt-5 mb-3">Workflow</h4>
         <ul class="fa-ul mb-0">
           <li>
@@ -424,6 +557,9 @@
     <!--jQuery DrawSVG-->
     <script src="https://cdn.jsdelivr.net/g/jquery@1.11.3,jquery.easing@1.3(jquery.easing.1.3.min.js)"></script>
     <script src="https://cdn.jsdelivr.net/jquery.drawsvg/1/jquery.drawsvg.min.js"></script>
+
+    <!--Flowtype.js-->
+    <script src="https://cdn.bootcss.com/Flowtype.js/1.1.0/flowtype.min.js"></script>
 
     <!--Custom JS-->
     <script src="/script.js"></script>

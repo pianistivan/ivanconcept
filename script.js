@@ -40,3 +40,15 @@ $win.on('scroll', function() {
   var p = $win.scrollTop() / max;
   $svg.drawsvg('progress', p);
 });
+
+
+$('body').flowtype();
+
+
+$('body').flowtype({
+  // minimum: 0,
+  // maximum: 500,
+  minFont: 16,
+  maxFont: 18,
+  fontRatio: 30
+});
