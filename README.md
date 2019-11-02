@@ -1,6 +1,6 @@
-# About Ivan's Personal Website
+# About ivanconcept
 
-Hi! Welcome to my experiment using Pts.js to draw an analogy between music and coding.
+Hi! Welcome to my personal portfolio, ivanconcept
 
 # Design and Styling
 
@@ -20,6 +20,6 @@ Users will be able to interact with the website through:
 
 **Navigation bar**: Bootstrap implementation, with smooth-scroll, styling changes when hover and active section links
 
-**Animation**: Animate CSS, Wow.js, Typeit.js, Pts.js
+**Animation**: jQuery DrawSVG, lax.js
 
-**Mouse events**: CSS hover, Pts.js, custom javascript tracks which section the user has scrolled to
+**Mouse events**: CSS hover,custom javascript tracks which section the user has scrolled to
