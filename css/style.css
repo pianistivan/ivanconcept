@@ -444,7 +444,14 @@ nav ul li a {
   background-color: #fff;
 }
 
+.badge {
+  padding: .6em .8em !important;
+}
 
+.card-body .badge {
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Skills
